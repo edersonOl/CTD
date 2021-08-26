@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
+.titulo,h3,h2,p{font-family: 'Open Sans', sans-serif;
+}
+.titulo {color:rgb(185, 6, 90);}
+h2, p { color: rgba(248, 2, 2, 0.904)}
+p {color:black}
+p{ background-color: rgb(red, rgb(166, 173, 166), blue);}

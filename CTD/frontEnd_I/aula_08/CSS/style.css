@@ -1,0 +1,34 @@
+body {
+    background-color: #131313;
+}
+
+h1 {color: white;
+    font-family:'Roboto', sans-serif;
+}
+
+.media-picture{
+    width: 100%;
+    height: 400px;
+    background-image: url("../image/avangers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review-score{
+    padding: 12px;
+    color:white;
+    background-color: #e6bd09;
+}
+
+h2 {
+    color: steelblue;
+}
+
+p {
+    color: #bdbdbd;
+    font-family:'Roboto', sans-serif;
+}
+
+a {
+    color: yellow;
+}
