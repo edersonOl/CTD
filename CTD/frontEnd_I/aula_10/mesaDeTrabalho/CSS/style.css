@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+.banner {
+    background-image: url("../Image/wallpaper_reileao.jpg");
+    box-sizing: border-box;
+    width: 1300px;
+    height: 800px;
+    background-repeat: no-repeat;
+    padding: 32px;
+    margin: 15px;
+    background-position: center;
+}
+
+.titulo{
+    color: #0b022b;
+    font-size: 60px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.subtitulo{
+    color: rgb(253, 253, 15);
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#botao {
+    padding:40px;
+    border-radius: 20px;
+    background-color: #92908e; 
+    text-shadow: white 0.1em 0.1em 0.2em;
+    color: rgb(10, 5, 5);
+    margin-top:10px;
+    font-weight: 600;
+    font-size: 20em;
+    position: absolute;
+
+}
