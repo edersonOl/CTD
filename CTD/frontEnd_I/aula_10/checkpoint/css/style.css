@@ -1,0 +1,84 @@
+body{
+    width: 1200px;
+    height: 700px;
+    font-size: 100%;
+    background-image: url("../img/wallpaperCabreuva.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 1200px; 
+    height: 700px; 
+    display: grid; 
+    grid-template-rows: 60px auto 60px; 
+}
+
+.header {
+    width: 100%;
+    height: 5%;
+    background-color: teal;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 10px;
+    position:absolute;
+    top: 0;
+ 
+}
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.main { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.textmain{
+    font-family: 'Dancing Script', cursive;
+    width: 80%;
+    color:white;
+    font-size: 30px;
+    text-align: justify;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, +50%);
+    position: absolute;
+    z-index: 1;
+}
+
+.destaque{
+    color:rgb(1, 245, 1);
+}
+
+.footer{
+    width: 100%;
+    height: 5%;
+    background-color:black;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 10px;
+    position:absolute;
+    bottom: 0;
+}
+
+.textfooter { 
+    font-weight: 300; 
+    overflow: hidden; 
+    color: grey;
+}
+
+.textfooter a {
+    font-weight: 400; 
+    color: white; 
+}
