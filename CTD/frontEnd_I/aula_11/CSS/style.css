@@ -1,78 +1,129 @@
-.texto {
-    font-size: 15px;
-    bottom: 25%;
-    left: 50%;
-    transform: translate(-50%, +50%);
-    position: absolute;
+*{
+    margin:0;
+    box-sizing: border-box;
 }
 
-.area1{
-    width: 200px;
-    height: 100px;
-    background: rgb(241, 238, 238);
-    border: 5px solid #CCC;
-    padding: 20px;
-    top: 0;
-    left: 0;
-    position: relative;
-}  
-  
-.area2{
-    width: 200px;
-    height: 100px;
-    background: rgb(241, 238, 238);
-    border: 5px solid #CCC;
-    padding: 20px;
-    position: fixed;
-    bottom: 15%;
-    left: 50%;
-    transform: translate(-50%, +50%);
-}  
+body{
+    background-image: url("../img/wallpaperF1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-main1{
+    width: 300px;
+    height: 300px;
+    border: 10px;
+    border-style: double;
+    border-color: black;
+    position:absolute;
+    top:34%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: gray;
 
-.area3{
-    width: 200px;
-    height: 100px;
-    background: rgb(241, 238, 238);
-    border: 5px solid #CCC;
-    padding: 20px;
-    top: 0;
-    left: 450%;
-    position: absolute;
-}  
-
-
-.box1{    
-    width: 50px;
-    height: 25px;
-    background: rgb(107, 104, 104);
-    border: 5px solid #CCC;
-    padding: 20px;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, +50%);
-    position: absolute;
 }
 
-.box2{    
-    width: 50px;
-    height: 25px;
-    background: rgb(107, 104, 104);
-    border: 5px solid #CCC;
-    padding: 20px;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, +50%);
+.box-1{
+    width: 150px;
+    height: 150px;
     position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(5, 5, 5);
 }
 
-.box3{    
-    width: 50px;
-    height: 25px;
-    background: rgb(107, 104, 104);
-    border: 5px solid #CCC;
-    padding: 20px;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, +50%);
+.img1{
+    width: 120px;
+    height: 120px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.box-main2{
+    width: 300px;
+    height: 300px;
+    border: 10px;
+    border-style: double;
+    border-color: black;
+    position:absolute;
+    bottom: 0;
+    left: 235px;
+    background-color: gray;
+}
+
+.box-2{
+    width: 150px;
+    height: 150px;
     position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(5, 5, 5);
+}
+
+.img2{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.box-main3{
+    width: 300px;
+    height: 300px;
+    border: 10px;
+    border-style: double;
+    border-color: black;
+    position:absolute;
+    bottom: 0;
+    right: 235px;
+    background-color: gray;
+}
+
+.box-3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(5, 5, 5);
+}
+
+.img3{
+    width: 80px;
+    height: 120px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    position:absolute;
+    top:10%;
+    left: 45%;
+}
+
+h2{
+    position:absolute;
+    bottom:10%;
+    left:22%;
+}
+
+.first{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.number1{
+    width: 100%;
 }
