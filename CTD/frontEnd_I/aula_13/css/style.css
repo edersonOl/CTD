@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30;
+}
+
+.formulario {
+    align-items: center;
+}
+
+ .formulario div {
+     margin: 30px 30px;
+ 
+ }
+ 
+ .formulario input {
+     width: 50%;
+     margin-left: 20px;
+ }
+
+ .formulario textarea {
+     padding: 5px;
+     border-radius: 3px;
+     border: solid 1px #9e9e9e;
+     background: #ccc;
+   }
+ 
+ .formulario button {
+     width: 145px;
+     height: 25px;
+     background: orangered;
+     color: white;
+     font-size: 1rem;
+     font-weight: 300;
+     border: none;
+     border-radius: 10px;
+ }
