@@ -22,7 +22,9 @@ let Triangulo = {
 
 console.log(Carro.andar(120));
 console.log();
+console.log(Quadrado);
 console.log(Quadrado.area(10));
 console.log();
 console.log(Triangulo.area(10));
 console.log();
+console.log(Triangulo.cor);
