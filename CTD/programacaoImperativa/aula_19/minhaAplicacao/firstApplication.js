@@ -64,50 +64,49 @@ Faça um programa que receba a idade"  a opinião de 15 espectadores, calcule e 
 */
 
 let espectadores = [
-    {"idade": 15, "opiniao": 2},
-    {"idade": 17, "opiniao": 2},
-    {"idade": 30, "opiniao": 1},
-    {"idade": 25, "opiniao": 2},
-    {"idade": 45, "opiniao": 1},
-    {"idade": 60, "opiniao": 1},
-    {"idade": 17, "opiniao": 3},
-    {"idade": 18, "opiniao": 3},
-    {"idade": 29, "opiniao": 2},
-    {"idade": 32, "opiniao": 2},
-    {"idade": 35, "opiniao": 1},
-    {"idade": 41, "opiniao": 1},
-    {"idade": 62, "opiniao": 2},
-    {"idade": 20, "opiniao": 3},
-    {"idade": 21, "opiniao": 3},
+    { idade: 15, opiniao: 2 },
+    { idade: 17, opiniao: 2 },
+    { idade: 30, opiniao: 1 },
+    { idade: 25, opiniao: 2 },
+    { idade: 45, opiniao: 1 },
+    { idade: 60, opiniao: 1 },
+    { idade: 17, opiniao: 3 },
+    { idade: 18, opiniao: 3 },
+    { idade: 29, opiniao: 2 },
+    { idade: 32, opiniao: 2 },
+    { idade: 35, opiniao: 1 },
+    { idade: 41, opiniao: 1 },
+    { idade: 62, opiniao: 2 },
+    { idade: 20, opiniao: 3 },
+    { idade: 21, opiniao: 3 },
 ];
 
-function calculoCinema (listaEspectadores) {
-    let armazenaIdadeOtm= 0;
-    let armazenaOpnOtimo = 0;
-    let armazenaOpnBom = 0;
-    let armazenaOpnRegular = 0;
-    listaEspectadores.forEach(function(opn) {
-        if (opn.opiniao == 3) {
-            armazenaIdadeOtm = armazenaIdadeOtm + opn.idade;
-            armazenaOpnOtimo += 1;
-        }
-        else if (opn.opiniao == 2) {
-            armazenaOpnBom += 1;
-        }
-        else if (opn.opiniao == 1) {
-            armazenaOpnRegular += 1;
+function calculoCinema(listaEspectadores) {
+    let armazenaDados = [0, 0, 0, 0];
+    listaEspectadores.forEach(function (opn) {
+        switch (opn.opiniao) {
+            case 3:
+                armazenaDados[0] += opn.idade;
+                armazenaDados[1] += 1;
+                break;
+            case 2:
+                armazenaDados[2] += 1;
+                break;
+            case 1:
+                armazenaDados[3] += 1;
+                break;
         }
     });
-    let mediaIdadeOtm = armazenaIdadeOtm / armazenaOpnOtimo;
-    let porcentagemOpnBom = (armazenaOpnBom / espectadores.length) * 100;
-    console.log("A média de idade com opnião ótimo é " + mediaIdadeOtm + " anos");
-    console.log(armazenaOpnRegular + " pessoas classificaram o filme como regular");
-    console.log("A porcentagem de pessoas que classificaram como bom foi " + porcentagemOpnBom + "%");
+    let mediaIdadeOtm = armazenaDados[0] / armazenaDados[1];
+    let porcentagemOpnBom = (armazenaDados[2] / listaEspectadores.length) * 100;
+    console.log(mediaIdadeOtm);
+    console.log(armazenaDados[3]);
+    console.log(porcentagemOpnBom);
 };
 
-console.log("-------------------EXERCÍCIO 2-------------------")
+console.log("-------------------EXERCÍCIO 2-------------------");
 calculoCinema(espectadores);
-console.log("-------------------------------------------------")
+console.log("-------------------------------------------------");
 
 
 
