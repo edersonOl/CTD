@@ -88,7 +88,7 @@ function calculoCinema (listaEspectadores) {
     let armazenaOpnRegular = 0;
     listaEspectadores.forEach(function(opn) {
         if (opn.opiniao == 3) {
-            armazenaIdadeOtm += opn.idade;
+            armazenaIdadeOtm = armazenaIdadeOtm + opn.idade;
             armazenaOpnOtimo += 1;
         }
         else if (opn.opiniao == 2) {
