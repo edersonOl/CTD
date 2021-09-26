@@ -100,9 +100,9 @@ function calculoCinema (listaEspectadores) {
     });
     let mediaIdadeOtm = armazenaIdadeOtm / armazenaOpnOtimo;
     let porcentagemOpnBom = (armazenaOpnBom / espectadores.length) * 100;
-    console.log(mediaIdadeOtm);
-    console.log(armazenaOpnRegular);
-    console.log(porcentagemOpnBom);
+    console.log("A média de idade com opnião ótimo é " + mediaIdadeOtm + " anos");
+    console.log(armazenaOpnRegular + " pessoas classificaram o filme como regular");
+    console.log("A porcentagem de pessoas que classificaram como bom foi " + porcentagemOpnBom + "%");
 };
 
 console.log("-------------------EXERCÍCIO 2-------------------")
