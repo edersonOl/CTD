@@ -18,12 +18,13 @@
 let EstudanteModulo = require ("./estudante");
 let CursoModulo = require("./curso");
 
-let estudante1 = new EstudanteModulo("Marcelo", 1, [7,8,9,10]);
-let estudante2 = new EstudanteModulo("Maria", 1, [7,8,9,10]);
-let estudante3 = new EstudanteModulo("Larissa", 1, [7,8,9,10]);
+CursoModulo.listaEstudantes.push(new EstudanteModulo("Marcelo", 1, [7,8,9,10]));
+CursoModulo.listaEstudantes.push(new EstudanteModulo("Maria", 1, [7,8,9,10]));
+CursoModulo.listaEstudantes.push(new EstudanteModulo("Larissa", 1, [7,8,9,10]));
 
 console.log(estudante1.faltas);
 console.log(estudante1.ausente());
 console.log(estudante1.faltas);
 console.log("-------------------------------------");
-console.log(CursoModulo.listaEstudantes);
+console.log(CursoModulo);
+
