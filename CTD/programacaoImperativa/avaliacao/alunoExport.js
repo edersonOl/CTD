@@ -6,7 +6,12 @@ Crie um construtor para ele e importe-o como o módulo aluno.*/
 /*Micro desafio - Passo 2
 Nosso objeto aluno terá o método calcularMedia que retorna a média de suas notas.
 Também terá um método chamado faltas, que simplesmente aumenta o número de faltas em 1.
-*/
+
+Micro desafio - Passo 3
+Em um arquivo diferente, crie o objeto literal curso que tem como atributos: nome do curso (string),
+nota de aprovação (number), faltas máximas (number) e uma lista de estudantes
+(um array composto pelos alunos criados no passo 1).*/
+
 
 let aluno = {
     nome: "fulano",
@@ -33,13 +38,4 @@ function Aluno(nome, faltas, notas) {
     }
 }
 
-// console.log(Aluno.addAluno("Ronaldo", 1, [2, 2, 2, 2]));
-
-
 module.exports = Aluno;
-
-
-/*Micro desafio - Passo 3
-Em um arquivo diferente, crie o objeto literal curso que tem como atributos: nome do curso (string),
-nota de aprovação (number), faltas máximas (number) e uma lista de estudantes
-(um array composto pelos alunos criados no passo 1).*/
