@@ -4,9 +4,9 @@ const collectionCards = document.querySelector (`#cards`);
 const adicionaCard = function (titulo, ano, descricao, url) {
     const template = `
     <div class="card">
-       <img src="${url}" alt="${titulo}" width="400px">
+       <img src="${url}" alt="${titulo}" width="1200px">
        <h2>${titulo} </h2>
-       <p><Ano: ${ano}</p>
+       <p>Ano: ${ano}</p>
        <p>Descrição: ${descricao}</p>
      </div>
     `;
