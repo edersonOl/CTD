@@ -1,11 +1,12 @@
 const formulario = document.querySelector(`#formulario`);
 const collectionCards = document.querySelector (`#cards`);
 
-const adicionaCard = function (titulo, descricao, url) {
+const adicionaCard = function (titulo, ano, descricao, url) {
     const template = `
     <div class="card">
        <img src="${url}" alt="${titulo}" width="400px">
-       <p>${titulo}</p>
+       <h2>${titulo} </h2>
+       <p>${ano}</p>
        <p>${descricao}</p>
      </div>
     `;
@@ -16,10 +17,12 @@ const adicionaCard = function (titulo, descricao, url) {
 
 formulario.onsubmit = function (e) {
     var titulo = document.querySelector('#titulo').value;
+    var ano = document.querySelector('#ano').value;
     var descricao = document.querySelector('#descricao').value;
     var url = document.querySelector('#url').value;
-    adicionaCard(titulo,descricao,url);
+    adicionaCard(titulo,ano,descricao,url);
 
     // Previne o comportamento default do evento.
     e.preventDefault();
 }
+

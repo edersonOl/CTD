@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 
@@ -22,7 +22,7 @@ main {
     margin-top: 20px;
     border-style: groove;
     border-radius: 20px;
-    background-color: rgba(245, 245, 245, 0.884);
+    background-color: rgba(245, 245, 245, 0.952);
 }
 
 #formulario {
@@ -39,12 +39,12 @@ main {
 }
 
 .destaque {
-    font-family: 'Palette Mosaic', cursive;  
+    font-family: 'Orbitron', sans-serif;
 }
 
 
 label {
-    width: 120px;
+    width: 200px;
     font-family: 'Bree Serif', serif;
 }
 
@@ -90,6 +90,16 @@ input {
     color: black;
 }
 
+#remove{
+    font-family: 'Bree Serif', serif;
+    margin: 10px;
+    border-style:solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(156, 28, 28, 0.911);
+    color: black;
+}
+
 .destaque:hover { 
     color:rgba(243, 3, 3, 0.993);
     transform: scale(1.05);
@@ -110,8 +120,15 @@ input:focus {
 #reset:hover {
     color:white;
     background-color: black;
-    border-color: black;
+    border-color: white;
     box-shadow: 0 0 10px 3px rgba(31, 29, 29, 0.4);
     transform: scale(1.1);
 }
 
+#remove:hover {
+    color:white;
+    background-color: rgb(136, 12, 12);
+    border-color: white;
+    box-shadow: 0 0 10px 3px rgba(31, 29, 29, 0.4);
+    transform: scale(1.1);
+}
