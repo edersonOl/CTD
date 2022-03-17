@@ -26,7 +26,7 @@ formulario.onsubmit = function (e) {
     e.preventDefault();
 }
 
-var removerCards = document.getElementById('#remove')
+var removerCards = document.getElementById('remove')
 removerCards.addEventListener('click', removeCard)
 
 function removeCard(){
