@@ -6,8 +6,8 @@ const adicionaCard = function (titulo, ano, descricao, url) {
     <div class="card">
        <img src="${url}" alt="${titulo}" width="400px">
        <h2>${titulo} </h2>
-       <p>${ano}</p>
-       <p>${descricao}</p>
+       <p><Ano: ${ano}</p>
+       <p>Descrição: ${descricao}</p>
      </div>
     `;
 
@@ -27,8 +27,8 @@ formulario.onsubmit = function (e) {
 }
 
 var removerCards = document.getElementById('remove')
-removerCards.addEventListener('click', removeCard)
+removerCards.addEventListener('click', removeCards)
 
-function removeCard(){
+function removeCards(){
     collectionCards.innerHTML='';
 }
