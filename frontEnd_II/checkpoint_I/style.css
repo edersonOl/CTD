@@ -38,7 +38,7 @@ main {
     margin: 10px 0;
 }
 
-.destaque {
+.titulo-form {
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -56,12 +56,12 @@ input {
 
 #cards {
     display: flex;
-    flex-direction: row;
-    /*flex-wrap: wrap;*/
-    flex-direction: column;
+    flex-flow:row wrap;
+    justify-content: center;
 }
 
 .card {
+    max-width: 550px;
     margin: 10px;
     padding: 10px;
     color: white;
@@ -103,7 +103,7 @@ input {
     color: black;
 }
 
-.destaque:hover { 
+.titulo-form:hover { 
     color:rgba(243, 3, 3, 0.993);
     transform: scale(1.05);
 }
