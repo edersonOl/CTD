@@ -146,18 +146,37 @@ input:focus {
 @media only screen and (max-width: 480px) {
     .container-form {
         width: 300px;
-    }   
+    }
+    
+    .titulo-form {
+        font-size: 85%;
+    }
 
     #formulario label {
+        font-size:75%;
         width: 150px;
     }
  
     #formulario input {
-        width: 100px;
+        width: 130px;
     }
-    
+
     .btn {
-        width: 100px;
+        width: 300px;
+    }
+
+    #submit #reset #remove {
+        font-size: 70%; 
+        margin: 5px;
+    }
+
+    .card {
+        max-width: 450px;
+    }
+
+    img {
+        max-width: 300px;
+        max-height: 300px;
     }
 
 }
