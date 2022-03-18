@@ -62,7 +62,7 @@ input {
 
 .card {
     max-width: 550px;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     color: white;
     background-color:rgba(44, 44, 44, 0.849);
@@ -165,13 +165,29 @@ input:focus {
         width: 300px;
     }
 
-    #submit #reset #remove {
+    #submit {
+        font-size: 70%; 
+        margin: 5px;
+    }
+
+    #reset {
+        font-size: 70%; 
+        margin: 5px;
+    }
+
+    #remove {
         font-size: 70%; 
         margin: 5px;
     }
 
     .card {
-        max-width: 450px;
+        max-width: 400px;
+    }
+
+    .card:hover {
+        transform: none;
+        border-color: white;
+        box-shadow: none;
     }
 
     img {
