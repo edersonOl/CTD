@@ -22,14 +22,12 @@ const addMsg = function (conteudo) {
     localStorage.setItem("history", arr);
 }
 
-window.onload = () => {
-    if(localStorage.getItem(`history`)) {
-        commentsHistory.push(localStorage.getItem("history").split(","));
-        for (const comment in commentsHistory) {
-            conteudo = commentsHistory[comment];
-            addMsg(conteudo);
-        }
-    }
+window.onload = function () {
+    commentsHistory.push(localStorage.getItem("history").split(","));
+    commentsHistory.forEach((item) => {
+        var message = JSON.stringify({item});
+        addMsg(message);
+    })
 }
     
 
