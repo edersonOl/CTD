@@ -2,32 +2,29 @@ const form = document.querySelector('form');
 const msgHistory = document.getElementById('comments');
 var conteudo = document.querySelector('#textarea');
 
-const arr = [];
 const commentsHistory = [];
 
 form.addEventListener("submit", function(e) {
     e.preventDefault();
-    arr.push(conteudo.value);
-    addMsg(conteudo);
-}
-);
+    commentsHistory.push(conteudo.value);
+    addMsg(conteudo.value);
+    localStorage.setItem("history",commentsHistory);
+});
 
 const addMsg = function (conteudo) {
     const template = `
     <div class="msg">
-        <p>${conteudo.value}</p>
+        <p>${conteudo}</p>
     </div>
     `;
     msgHistory.innerHTML += template;
-    localStorage.setItem("history", arr);
 }
 
 window.onload = function () {
-    commentsHistory.push(localStorage.getItem("history").split(","));
-    commentsHistory.forEach((item) => {
-        var message = JSON.stringify({item});
-        addMsg(message);
-    })
+    if (localStorage.getItem("history")) {
+        commentsHistory = localStorage.getItem("history").split(",");
+        commentsHistory.forEach((item) => addMsg(item))
+    }
 }
     
 
