@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df2425ff-225e-46dd-9132-6c039fa5b1fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Back-End.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula3/TemplateIntegradorAluno/TemplateIntegradorAluno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula3/aula2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula4/Chain_Responsibility/Chain_Responsibility.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula4/aula3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula5/Proxy_pattern/Proxy_pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula5/aula5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integrador2/src/ISerie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integrador2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integrador2/src/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integrador2/src/SerieNaoHabilitadaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integrador2/src/SerieProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/aula11/aula11-exemploImpressoraAbstrata/aula11-exemploImpressoraAbstrata.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/aula11/aula11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/aula13/aula13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/aula13/exercicioSistemaDeArmas/exercicioSistemaDeArmas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/Checkpoint02-drogariaDrogaRaio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Atendimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Caixa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Farmaceutico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../POO/checkpoint_II/checkpoint_II.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../POO/aula2/aula2-exercicio1/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../POO/aula2/aula2-exercicio1/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../POO/aula2/aula2-scanner/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../POO/aula2/aula2-scanner/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../POO/aula3/aula3-consumoRacao/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../POO/aula3/aula3-consumoRacao/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../POO/aula3/aula3-mesaDeTrabalho/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../POO/aula3/aula3-mesaDeTrabalho/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../POO/checkpoint_I/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../POO/checkpoint_I/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../POO/checkpoint_I/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd_II/aula05/mesaDeTrabalho/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontEnd_II/aula05/mesaDeTrabalho/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd_II/aula05/mesaDeTrabalho/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontEnd_II/aula05/mesaDeTrabalho/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd_II/aula07/mesaDeTrabalho/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontEnd_II/aula07/mesaDeTrabalho/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../frontEnd_II/aula08/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../frontEnd_II/aula08/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/_test_/util.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/_test_/util.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/coverage/clover.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/coverage/coverage-final.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/coverage/lcov-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/coverage/lcov-report/util.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/coverage/lcov-report/util.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/coverage/lcov.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../testing/programa-listas en javascript/util.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Integrador2/src/Main.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CuQDalxnjftvUAicdVxBEcFKWo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/DH/CTD/Back-End/aula7"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeDeFilmesProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Integrador2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GradeDeFilmesProxyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeDeFilmesProxyTest.testGetFilmeErro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Integrador2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GradeDeFilmesProxyTest" />
+      <option name="METHOD_NAME" value="testGetFilmeErro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GradeDeFilmesProxyTest" />
+        <item itemvalue="JUnit.GradeDeFilmesProxyTest.testGetFilmeErro" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df2425ff-225e-46dd-9132-6c039fa5b1fd" name="Changes" comment="" />
+      <created>1659649872621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659649872621</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

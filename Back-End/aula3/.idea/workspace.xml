@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98bf652b-04b2-4ace-a51c-5f12f12bfbf6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/Checkpoint02-drogariaDrogaRaio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Atendimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Caixa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Farmaceutico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/checkpoint_II/Checkpoint02-drogariaDrogaRaio/src/entities/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/checkpoint_II/checkpoint_II.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula2/aula2-exercicio1/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula2/aula2-exercicio1/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula2/aula2-scanner/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula2/aula2-scanner/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula3/aula3-consumoRacao/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula3/aula3-consumoRacao/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula3/aula3-mesaDeTrabalho/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula3/aula3-mesaDeTrabalho/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/checkpoint_I/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/checkpoint_I/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/checkpoint_I/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontEnd_II/aula05/mesaDeTrabalho/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontEnd_II/aula05/mesaDeTrabalho/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontEnd_II/aula05/mesaDeTrabalho/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontEnd_II/aula05/mesaDeTrabalho/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontEnd_II/aula07/mesaDeTrabalho/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontEnd_II/aula07/mesaDeTrabalho/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontEnd_II/aula08/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontEnd_II/aula08/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/programa-listas en javascript/_test_/util.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/programa-listas en javascript/_test_/util.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/programa-listas en javascript/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/programa-listas en javascript/coverage/clover.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/programa-listas en javascript/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/programa-listas en javascript/coverage/coverage-final.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/programa-listas en javascript/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/programa-listas en javascript/coverage/lcov-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/programa-listas en javascript/coverage/lcov-report/util.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/programa-listas en javascript/coverage/lcov-report/util.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/programa-listas en javascript/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/programa-listas en javascript/coverage/lcov.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/programa-listas en javascript/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/programa-listas en javascript/util.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CpLi79KSf7K8wMjsoaeEoHhp3r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/DH/CTD/Back-End/aula5"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98bf652b-04b2-4ace-a51c-5f12f12bfbf6" name="Changes" comment="" />
+      <created>1659494703452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659494703452</updated>
+    </task>
+    <servers />
+  </component>
+</project>
